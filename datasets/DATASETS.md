@@ -25,5 +25,3 @@ This table summarizes the 16 datasets used in the manuscript. `Cell types` gives
 
 All datasets are stored in H5AD format and have been made publicly available on Zenodo: **[Zenodo record link to be added]**.
 
-The cell counts for datasets 15 and 16 above refer to the full original datasets. The benchmark analyses used cropped subsets of 10,000 cells (ccRCC) and 10,006 cells (CosMx human breast cancer), respectively.
-

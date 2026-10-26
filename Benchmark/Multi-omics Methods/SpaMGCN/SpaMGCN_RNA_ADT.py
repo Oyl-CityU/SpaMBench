@@ -32,7 +32,6 @@ os.makedirs(os.path.join(output_dir, 'latent'), exist_ok=True)
 os.makedirs(os.path.join(output_dir, 'labels'), exist_ok=True)
 
 def fix_seed(seed):
-    #seed = 2023
     os.environ['PYTHONHASHSEED'] = str(seed)
     random.seed(seed)
     np.random.seed(seed)

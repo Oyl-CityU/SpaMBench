@@ -21,7 +21,6 @@ from rpy2.robjects.conversion import localconverter
 import Model.utils as cluster_module
 import warnings
 
-# R compatibility only: preserve the method's PCA and mclust EEE settings.
 
 def mclust_R(adata, num_cluster, modelNames='EEE', used_obsm='emb', random_seed=2024):
     robjects.r.library('mclust')

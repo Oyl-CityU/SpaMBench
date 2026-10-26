@@ -30,7 +30,6 @@ adata_atac = adata_atac[adata_rna.obs_names].copy()
 adata_rna.X = adata_rna.X.astype(np.float32)
 adata_atac.X = adata_atac.X.astype(np.float32)
 
-# No additional global seed: preserve the supplied PRESENT entry's behavior.
 for run_id in range(10):
     print(f'Run {run_id + 1}/10', flush=True)
     adata = PRESENT_function(

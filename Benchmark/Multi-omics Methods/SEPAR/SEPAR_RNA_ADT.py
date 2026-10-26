@@ -89,10 +89,10 @@ for run_id in range(10):
     with patch.object(separ_module, 'non_negative_factorization',
                       lambda *a, **kw: original_nmf(*a, **dict(kw, random_state=None))):
         separ.separ_algorithm(
-            r=30,              # Number of patterns
-            alpha=0.5,         # Graph regularization
-            beta=0.01,         # Sparsity penalty (previously l1)
-            gamma=0.5,         # Pattern orthogonality (previously lam)
+            r=30,              
+            alpha=0.5,         
+            beta=0.01,         
+            gamma=0.5,         
             mean=False
         )
 

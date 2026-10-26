@@ -19,7 +19,6 @@ import spamosaic.framework as framework
 import spamosaic.utils as cluster_module
 import spamosaic.utils as utls
 
-# R compatibility only: preserve the method's PCA and mclust EEE settings.
 
 def mclust_R(adata, num_cluster, modelNames='EEE', used_obsm='emb', random_seed=2020):
     robjects.r.library('mclust')

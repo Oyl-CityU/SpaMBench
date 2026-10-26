@@ -19,8 +19,6 @@ from rpy2.robjects.conversion import localconverter
 import SpaMV.spamv as spamv_module
 import SpaMV.utils as cluster_module
 
-# R compatibility only: preserve the method's PCA and mclust EEE settings.
-
 def mclust_R(adata, num_cluster, modelNames='EEE', used_obsm='emb', random_seed=2020):
     robjects.r.library('mclust')
     robjects.r['set.seed'](random_seed)

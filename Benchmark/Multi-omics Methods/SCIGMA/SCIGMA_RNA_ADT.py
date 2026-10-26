@@ -45,7 +45,7 @@ cell_ids = adata1.obs_names.copy()
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
 # RNA+ADT: SPOTS preprocessing and model defaults, as in our basic benchmark.
-# 1000 is utils.seed's default; 5181 belongs to the supplied RNA+ATAC tutorial.
+# 1000 is utils.seed's default
 random_seed = 1000
 seed(random_seed)
 

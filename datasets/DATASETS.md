@@ -23,5 +23,5 @@ This table summarizes the 16 datasets used in the manuscript. `Cell types` gives
 
 `—` means curated cell-type labels are unavailable. `Reference clusters` does not imply that those unlabeled datasets have biological ground-truth annotations.
 
-All datasets are stored in H5AD format and have been made publicly available on Zenodo: **[Zenodo record link to be added]**.
+All datasets are stored in H5AD format and have been made publicly available on Zenodo: **https://doi.org/10.5281/zenodo.23655056**.
 

@@ -35,7 +35,6 @@ adata2 = adata2[adata1.obs_names].copy()
 n_clusters = 10
 print("===========n_clusters:{}=========".format(n_clusters))
 
-# spatkX get the top 3000 HVGs, same with SpaMultiVAE
 top_3000_svgs_path = "00_top3000_genes_pvalues.csv"
 top_3000_svgs = pd.read_csv(top_3000_svgs_path, index_col=0)
 top_genes = top_3000_svgs.index.tolist()

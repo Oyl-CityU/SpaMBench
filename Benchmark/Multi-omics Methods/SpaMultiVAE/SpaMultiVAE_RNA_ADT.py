@@ -104,8 +104,8 @@ if args.batch_size == "auto":
 else:
     args.batch_size = int(args.batch_size)
 
-args.batch_size = 256
-print(args.batch_size)
+# args.batch_size = 256
+# print(args.batch_size)
 
 print(args)
 

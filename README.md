@@ -10,7 +10,7 @@ SpaMBench is a benchmark for evaluating spatial multi-omics integration methods 
 
 The benchmark includes 16 spatial datasets. Dataset names, platforms, sample counts, annotated cell types, and reference cluster numbers are listed in [DATASETS.md](datasets/DATASETS.md).
 
-The datasets can be found at **[dataset repository link to be added]**.
+All datasets used in the benchmark are available on [Zenodo](https://doi.org/10.5281/zenodo.23655056).
 
 ## Methods
 
